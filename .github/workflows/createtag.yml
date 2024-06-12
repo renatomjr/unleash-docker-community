@@ -12,6 +12,7 @@ jobs:
         folder:
           - azure
           - openid-connect
+          - oauth2
     outputs:
       version: ${{ steps.retrieve-version.outputs.version }}
     steps:
