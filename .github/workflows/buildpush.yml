@@ -33,7 +33,7 @@ jobs:
         id: meta
         with:
           images: |
-            unleashorg/unleash-community-${{ matrix.folder }}
+            renatomjr/unleash-community-${{ matrix.folder }}
           tags: 
             type=edge,suffix=-${{ matrix.version }}
       - name: Build tag and push image to Docker hub

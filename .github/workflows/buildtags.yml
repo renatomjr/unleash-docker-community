@@ -44,7 +44,7 @@ jobs:
         id: meta
         with:
           images: |
-            unleashorg/unleash-community-${{ matrix.folder }}
+            renatomjr/unleash-community-${{ matrix.folder }}
           tags: |
             type=semver,pattern={{version}},value=${{ steps.retrieve-version.outputs.version }}
             type=semver,pattern={{major}}.{{minor}},value=${{ steps.retrieve-version.outputs.major }}.${{ steps.retrieve-version.outputs.minor }}
