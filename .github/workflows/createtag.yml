@@ -11,6 +11,7 @@ jobs:
       matrix:
         folder:
           - azure
+          - google
           - openid-connect
           - oauth2
           - keycloak

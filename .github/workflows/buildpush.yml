@@ -13,6 +13,7 @@ jobs:
           - 20-alpine
         folder:
           - azure
+          - google
           - openid-connect
           - oauth2
           - keycloak

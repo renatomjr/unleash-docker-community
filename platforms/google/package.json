@@ -12,8 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "passport": "^0.7.0",
-    "passport-openidconnect": "^0.1.2",
+    "@passport-next/passport": "^3.1.0",
+    "passport-google-oidc": "^0.1.0",
     "unleash-server": "6.3.0"
   }
 }
